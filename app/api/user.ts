@@ -24,7 +24,7 @@ interface UserResponse {
 
 interface UserTweetsResponse {
   tweets: TweetData[];
-  user: User;
+  user: UserData[];
 }
 
 export const login = async (credentials: LoginCredentials): Promise<UserResponse> => {
