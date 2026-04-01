@@ -1,6 +1,6 @@
 "use client";
 
-import { TweetData } from '@/app/_interfaces/Tweet';
+import { TweetData } from '@/app/_interfaces/TweetData';
 import Tweet from '@/app/_components/Tweets';
 
 interface TweetListProps {
