@@ -1,7 +1,7 @@
 import axios from 'axios';
 import qs from 'qs';
 import { TweetData } from '../_interfaces/TweetData';
-import { User } from '../_interfaces/UserData';
+import { UserData } from '../_interfaces/UserData';
 import api from './api';
 
 interface LoginCredentials {
